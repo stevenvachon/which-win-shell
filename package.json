@@ -1,0 +1,38 @@
+{
+  "name": "which-win-shell",
+  "description": "Discern between different command-line shells on Windows.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/webframes/which-win-shell",
+  "author": {
+    "name": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "https://www.svachon.com/"
+  },
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webframes/which-win-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webframes/which-win-shell/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.9",
+    "mocha": "^1.21"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "mocha test --bail --reporter spec --check-leaks"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli",
+    "cmd",
+    "powershell",
+    "windows"
+  ]
+}
