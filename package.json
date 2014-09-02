@@ -16,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/webframes/which-win-shell/issues"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
   "devDependencies": {
     "chai": "^1.9",
     "mocha": "^1.21"
