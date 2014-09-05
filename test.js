@@ -3,8 +3,8 @@ var whichWinShell = require("./");
 
 var windows = process.platform.indexOf("win") == 0;
 
-var describe_unixOnly    = eval( !windows ? "describe" : "describe.skip" );
-var describe_windowsOnly = eval(  windows ? "describe" : "describe.skip" );
+var describe_unixOnly    = !windows ? describe : describe.skip;
+var describe_windowsOnly =  windows ? describe : describe.skip;
 
 
 
